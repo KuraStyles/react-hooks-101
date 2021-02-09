@@ -7,7 +7,7 @@ import {
 const operationLogs = (state = [], actions) => {
 	switch (actions.type) {
 		case ADD_OPERATION_LOG:
-			const operationLog = {
+			const operationLogs = {
 				description: actions.description,
 				operationAt: actions.operatedAt,
 			};
